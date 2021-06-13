@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Module 5</title>
+</head>
+
+<body>
+    <header id="title">
+        <h1 class="title">Shopping Cart</h1>
+    </header>
+    <main>
+        <section id="shopping-cart">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Prime product</th>
+                        <th>Price</th>
+                        <th>Number</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <label for="input-delete">Enter id you want to delete</label>
+            <input type="text" id="input-delete">
+            <button id="button-delete">Delete</button>
+        </section>
+        <section id=prime-products>
+            <label for="prime-products">Your prime products: </label>
+            <ul id="prime-products-list"></ul>
+        </section>
+        <section class="shipping-costs">
+            <span id="shipping-costs"></span>
+        </section>
+        <section class=price>
+            <h3 class="discount-info"></h3>
+            <h2>
+                <span id="price"></span>
+            </h2>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
